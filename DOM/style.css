@@ -59,7 +59,7 @@ body{
     margin-left: 45px;
 }
 #card i {
-    color: pink;
+    color: rgb(251, 100, 100);
     font-size: 70px;
     position: absolute;
     top: 50%;
@@ -67,4 +67,20 @@ body{
     transform: translate(-50%, -50%) scale(0);
     transition: ease-in-out 0.3s;
     opacity: 0.9;
+}
+
+.cursor {
+    height: 30px;
+    width: 30px;
+    background-color: white;
+    border-radius: 50%;
+    position: absolute;
+    pointer-events: none;
+}
+
+.cursor img{
+    height: 30px;
+    width: 30px;
+    object-fit: cover;
+    border-radius: 50%;
 }
